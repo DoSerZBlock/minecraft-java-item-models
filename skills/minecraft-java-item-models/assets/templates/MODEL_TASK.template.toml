@@ -1,0 +1,142 @@
+[project]
+id = "replace_me"
+name = "Replace Me"
+target = "minecraft_java"
+blockbench_format = "java_block_item"
+minecraft_version = "1.21.1"
+loader = "fabric"
+runtime = "mod_item"
+units = "blockbench_units"
+main_axis = "y"
+phase = "blockout"
+
+[design]
+role = "weapon"
+theme = "dark_fantasy"
+primary_silhouette = "one dominant shape"
+secondary_silhouette = "one supporting shape"
+focal_point = "one focal accent"
+symmetry = "mostly_symmetric"
+detail_density = "low_to_medium"
+
+[bounds]
+min = [-8.0, 0.0, -4.0]
+max = [8.0, 32.0, 4.0]
+
+[budget]
+max_cubes = 18
+max_bones = 0
+max_planes = 2
+min_detail_unit = 1.0
+allow_subpixel_geometry = false
+
+[texture]
+width = 32
+height = 32
+pixel_density = 1.0
+uv_mode = "per_face"
+allow_uv_overlap = false
+allow_mirror = true
+
+[texture.palette.primary]
+colors = ["#D0D0D0", "#909090", "#505050", "#282828"]
+
+[texture.palette.accent]
+colors = ["#D07040", "#803020"]
+
+[[references]]
+name = "Reference A"
+creator = "Creator"
+url = "https://example.com"
+license = "check_source"
+study = ["silhouette", "proportion"]
+do_not_copy = ["geometry", "uv", "texture", "ornament"]
+
+[[parts]]
+id = "root"
+kind = "group"
+parent = ""
+
+# Add explicit cube/plane/bone parts below.
+
+[display.firstperson_righthand]
+rotation = [0.0, 0.0, 0.0]
+translation = [0.0, 0.0, 0.0]
+scale = [1.0, 1.0, 1.0]
+
+[display.thirdperson_righthand]
+rotation = [0.0, 0.0, 0.0]
+translation = [0.0, 0.0, 0.0]
+scale = [1.0, 1.0, 1.0]
+
+[display.gui]
+rotation = [0.0, 0.0, 0.0]
+translation = [0.0, 0.0, 0.0]
+scale = [1.0, 1.0, 1.0]
+
+
+
+# Placeholder transforms: calibrate every context against actual views.
+
+[display.firstperson_lefthand]
+rotation = [0.0, 0.0, 0.0]
+translation = [0.0, 0.0, 0.0]
+scale = [1.0, 1.0, 1.0]
+
+[display.thirdperson_lefthand]
+rotation = [0.0, 0.0, 0.0]
+translation = [0.0, 0.0, 0.0]
+scale = [1.0, 1.0, 1.0]
+
+[display.ground]
+rotation = [0.0, 0.0, 0.0]
+translation = [0.0, 0.0, 0.0]
+scale = [1.0, 1.0, 1.0]
+
+[display.fixed]
+rotation = [0.0, 0.0, 0.0]
+translation = [0.0, 0.0, 0.0]
+scale = [1.0, 1.0, 1.0]
+
+[display_policy]
+primary_context = "firstperson_righthand"
+calibration_order = ["rotation", "translation", "scale"]
+preserve_model_geometry_during_display_calibration = true
+allow_display_specific_geometry_override = false
+
+[display_qa.firstperson_righthand]
+crosshair_must_remain_clear = true
+max_center_obstruction = "low"
+must_show_grip_connection = true
+must_preserve_primary_silhouette = true
+
+[display_qa.thirdperson_righthand]
+must_show_grip_connection = true
+must_avoid_major_body_clipping = true
+must_preserve_primary_silhouette = true
+
+[display_qa.gui]
+must_fit_slot = true
+must_preserve_primary_silhouette = true
+must_show_focal_point = true
+min_slot_fill = 0.55
+max_slot_fill = 0.90
+
+[display_qa.ground]
+must_avoid_ground_intersection = true
+must_read_as_dropped_item = true
+
+[display_qa.fixed]
+must_fit_frame = true
+must_preserve_primary_silhouette = true
+
+[output]
+expected = ["work/replace_me.bbmodel"]
+
+[qa]
+required_views = ["front", "side", "back", "three_quarter", "silhouette", "firstperson_righthand", "firstperson_lefthand", "thirdperson_righthand", "thirdperson_lefthand", "gui", "ground", "fixed"]
+blocking_rules = [
+  "silhouette must read at thumbnail size",
+  "no unintended subpixel geometry",
+  "pixel density must be coherent"
+]

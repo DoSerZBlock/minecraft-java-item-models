@@ -1,0 +1,1438 @@
+{
+  "meta": {
+    "format_version": "5.0",
+    "model_format": "java_block",
+    "box_uv": false
+  },
+  "name": "灰日_拾荒短刃_手持姿勢_Java26.2",
+  "resolution": {
+    "width": 64,
+    "height": 64
+  },
+  "elements": [
+    {
+      "name": "柄尾鐵帽",
+      "type": "cube",
+      "from": [
+        7.3478,
+        0.5,
+        7.5435
+      ],
+      "to": [
+        8.6522,
+        1.2174,
+        8.4565
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            25,
+            1,
+            31,
+            7
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            25,
+            1,
+            31,
+            7
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            25,
+            1,
+            31,
+            7
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            25,
+            1,
+            31,
+            7
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            25,
+            1,
+            31,
+            7
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            25,
+            1,
+            31,
+            7
+          ],
+          "texture": 0
+        }
+      },
+      "uuid": "5d5f03c9-13cb-4652-9e78-4334361a72d6",
+      "rotation": [
+        0,
+        0,
+        -45
+      ]
+    },
+    {
+      "name": "深灰握柄",
+      "type": "cube",
+      "from": [
+        7.5304,
+        1.1522,
+        7.6413
+      ],
+      "to": [
+        8.4696,
+        4.7391,
+        8.3587
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        }
+      },
+      "uuid": "a9b8c441-8e99-4d79-a888-8740781a7929",
+      "rotation": [
+        0,
+        0,
+        -45
+      ]
+    },
+    {
+      "name": "布條纏繞_下",
+      "type": "cube",
+      "from": [
+        7.4848,
+        1.6413,
+        7.6022
+      ],
+      "to": [
+        8.5152,
+        1.8891,
+        8.3978
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            41,
+            1,
+            47,
+            7
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            41,
+            1,
+            47,
+            7
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            41,
+            1,
+            47,
+            7
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            41,
+            1,
+            47,
+            7
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            41,
+            1,
+            47,
+            7
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            41,
+            1,
+            47,
+            7
+          ],
+          "texture": 0
+        }
+      },
+      "uuid": "3cc2dd47-e43d-40b9-a762-92191f6a4ed7",
+      "rotation": [
+        0,
+        0,
+        -45
+      ]
+    },
+    {
+      "name": "布條纏繞_中",
+      "type": "cube",
+      "from": [
+        7.4848,
+        2.587,
+        7.6022
+      ],
+      "to": [
+        8.5152,
+        2.8348,
+        8.3978
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            41,
+            1,
+            47,
+            7
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            41,
+            1,
+            47,
+            7
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            41,
+            1,
+            47,
+            7
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            41,
+            1,
+            47,
+            7
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            41,
+            1,
+            47,
+            7
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            41,
+            1,
+            47,
+            7
+          ],
+          "texture": 0
+        }
+      },
+      "uuid": "940c8e94-05cd-486b-9048-673dad898dc5",
+      "rotation": [
+        0,
+        0,
+        -45
+      ]
+    },
+    {
+      "name": "布條纏繞_上",
+      "type": "cube",
+      "from": [
+        7.4848,
+        3.5326,
+        7.6022
+      ],
+      "to": [
+        8.5152,
+        3.7804,
+        8.3978
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            41,
+            1,
+            47,
+            7
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            41,
+            1,
+            47,
+            7
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            41,
+            1,
+            47,
+            7
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            41,
+            1,
+            47,
+            7
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            41,
+            1,
+            47,
+            7
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            41,
+            1,
+            47,
+            7
+          ],
+          "texture": 0
+        }
+      },
+      "uuid": "a52a6355-fd2c-46f6-8729-b7ee6757c794",
+      "rotation": [
+        0,
+        0,
+        -45
+      ]
+    },
+    {
+      "name": "銹橙接環",
+      "type": "cube",
+      "from": [
+        7.3348,
+        4.5761,
+        7.55
+      ],
+      "to": [
+        8.6652,
+        5.1304,
+        8.45
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            49,
+            1,
+            55,
+            7
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            49,
+            1,
+            55,
+            7
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            49,
+            1,
+            55,
+            7
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            49,
+            1,
+            55,
+            7
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            49,
+            1,
+            55,
+            7
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            49,
+            1,
+            55,
+            7
+          ],
+          "texture": 0
+        }
+      },
+      "uuid": "530eee8c-a6d9-456f-942e-2f1f6feb49ec",
+      "rotation": [
+        0,
+        0,
+        -45
+      ]
+    },
+    {
+      "name": "橫向護手",
+      "type": "cube",
+      "from": [
+        6.4674,
+        5.0978,
+        7.4913
+      ],
+      "to": [
+        9.5326,
+        5.7304,
+        8.5087
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            25,
+            1,
+            31,
+            7
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            25,
+            1,
+            31,
+            7
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            25,
+            1,
+            31,
+            7
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            25,
+            1,
+            31,
+            7
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            25,
+            1,
+            31,
+            7
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            25,
+            1,
+            31,
+            7
+          ],
+          "texture": 0
+        }
+      },
+      "uuid": "53f11353-9659-40cf-bfda-f910f0c7696c",
+      "rotation": [
+        0,
+        0,
+        -45
+      ]
+    },
+    {
+      "name": "護手前標記",
+      "type": "cube",
+      "from": [
+        7.7261,
+        5.2609,
+        7.4522
+      ],
+      "to": [
+        8.2739,
+        5.5739,
+        7.4913
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            57,
+            1,
+            63,
+            7
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            57,
+            1,
+            63,
+            7
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            57,
+            1,
+            63,
+            7
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            57,
+            1,
+            63,
+            7
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            57,
+            1,
+            63,
+            7
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            57,
+            1,
+            63,
+            7
+          ],
+          "texture": 0
+        }
+      },
+      "uuid": "de9ebbbd-189a-4e66-a71c-84b8573052af",
+      "rotation": [
+        0,
+        0,
+        -45
+      ]
+    },
+    {
+      "name": "刀根",
+      "type": "cube",
+      "from": [
+        7.4,
+        5.6848,
+        7.7783
+      ],
+      "to": [
+        8.6,
+        7.0543,
+        8.2217
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            17,
+            1,
+            23,
+            7
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            17,
+            1,
+            23,
+            7
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            17,
+            1,
+            23,
+            7
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            17,
+            1,
+            23,
+            7
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            17,
+            1,
+            23,
+            7
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            17,
+            1,
+            23,
+            7
+          ],
+          "texture": 0
+        }
+      },
+      "uuid": "f0ca3ff2-fc62-45bf-89af-7489a9077256",
+      "rotation": [
+        0,
+        0,
+        -45
+      ]
+    },
+    {
+      "name": "主刀身",
+      "type": "cube",
+      "from": [
+        7.2826,
+        6.9239,
+        7.8043
+      ],
+      "to": [
+        8.75,
+        13.5435,
+        8.1957
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            1,
+            1,
+            7,
+            7
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            1,
+            1,
+            7,
+            7
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            17,
+            1,
+            23,
+            7
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            17,
+            1,
+            23,
+            7
+          ],
+          "texture": 0
+        }
+      },
+      "uuid": "1e25371f-8b98-44ce-bffe-f598eaf50485",
+      "rotation": [
+        0,
+        0,
+        -45
+      ]
+    },
+    {
+      "name": "上段刀身",
+      "type": "cube",
+      "from": [
+        7.413,
+        13.5109,
+        7.8239
+      ],
+      "to": [
+        8.75,
+        14.8478,
+        8.1761
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            1,
+            1,
+            7,
+            7
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            1,
+            1,
+            7,
+            7
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            17,
+            1,
+            23,
+            7
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            17,
+            1,
+            23,
+            7
+          ],
+          "texture": 0
+        }
+      },
+      "uuid": "de09f68e-3e18-4734-adc5-18e51f70cb0b",
+      "rotation": [
+        0,
+        0,
+        -45
+      ]
+    },
+    {
+      "name": "階梯刀尖",
+      "type": "cube",
+      "from": [
+        7.6609,
+        14.8152,
+        7.8565
+      ],
+      "to": [
+        8.5087,
+        15.5,
+        8.1435
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            1,
+            1,
+            7,
+            7
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            1,
+            1,
+            7,
+            7
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            17,
+            1,
+            23,
+            7
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            17,
+            1,
+            23,
+            7
+          ],
+          "texture": 0
+        }
+      },
+      "uuid": "ffd40c4d-2eae-40ad-aeda-069c862a1920",
+      "rotation": [
+        0,
+        0,
+        -45
+      ]
+    },
+    {
+      "name": "亮色刀刃_下",
+      "type": "cube",
+      "from": [
+        7.0478,
+        7.0217,
+        7.8696
+      ],
+      "to": [
+        7.2957,
+        13.2826,
+        8.1304
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        }
+      },
+      "uuid": "94b21e8f-236c-4114-80e2-c03c1e660364",
+      "rotation": [
+        0,
+        0,
+        -45
+      ]
+    },
+    {
+      "name": "亮色刀刃_上",
+      "type": "cube",
+      "from": [
+        7.1848,
+        13.2696,
+        7.8826
+      ],
+      "to": [
+        7.4261,
+        14.6848,
+        8.1174
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        }
+      },
+      "uuid": "9f6941d6-2f32-4196-b3dd-ccea721520e4",
+      "rotation": [
+        0,
+        0,
+        -45
+      ]
+    },
+    {
+      "name": "暗色刀背",
+      "type": "cube",
+      "from": [
+        8.737,
+        7.0217,
+        7.7848
+      ],
+      "to": [
+        8.8283,
+        14.1304,
+        8.2152
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            17,
+            1,
+            23,
+            7
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            17,
+            1,
+            23,
+            7
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            17,
+            1,
+            23,
+            7
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            17,
+            1,
+            23,
+            7
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            17,
+            1,
+            23,
+            7
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            17,
+            1,
+            23,
+            7
+          ],
+          "texture": 0
+        }
+      },
+      "uuid": "d21843fc-44df-4f9c-9cb2-c61efe7e3057",
+      "rotation": [
+        0,
+        0,
+        -45
+      ]
+    }
+  ],
+  "groups": [
+    {
+      "name": "01｜握柄",
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "uuid": "e8d9fc1c-584e-4cfb-9581-91ec851f566c",
+      "export": true,
+      "visibility": true
+    },
+    {
+      "name": "02｜護手",
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "uuid": "70ee1ede-aa59-4112-9dcf-2470a21b532f",
+      "export": true,
+      "visibility": true
+    },
+    {
+      "name": "03｜刀身",
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "uuid": "268f7b52-f9ec-4e71-900c-517177ce56de",
+      "export": true,
+      "visibility": true
+    }
+  ],
+  "outliner": [
+    {
+      "uuid": "e8d9fc1c-584e-4cfb-9581-91ec851f566c",
+      "isOpen": true,
+      "children": [
+        "5d5f03c9-13cb-4652-9e78-4334361a72d6",
+        "a9b8c441-8e99-4d79-a888-8740781a7929",
+        "3cc2dd47-e43d-40b9-a762-92191f6a4ed7",
+        "940c8e94-05cd-486b-9048-673dad898dc5",
+        "a52a6355-fd2c-46f6-8729-b7ee6757c794"
+      ]
+    },
+    {
+      "uuid": "70ee1ede-aa59-4112-9dcf-2470a21b532f",
+      "isOpen": true,
+      "children": [
+        "530eee8c-a6d9-456f-942e-2f1f6feb49ec",
+        "53f11353-9659-40cf-bfda-f910f0c7696c",
+        "de9ebbbd-189a-4e66-a71c-84b8573052af"
+      ]
+    },
+    {
+      "uuid": "268f7b52-f9ec-4e71-900c-517177ce56de",
+      "isOpen": true,
+      "children": [
+        "f0ca3ff2-fc62-45bf-89af-7489a9077256",
+        "1e25371f-8b98-44ce-bffe-f598eaf50485",
+        "de09f68e-3e18-4734-adc5-18e51f70cb0b",
+        "ffd40c4d-2eae-40ad-aeda-069c862a1920",
+        "94b21e8f-236c-4114-80e2-c03c1e660364",
+        "9f6941d6-2f32-4196-b3dd-ccea721520e4",
+        "d21843fc-44df-4f9c-9cb2-c61efe7e3057"
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "name": "starter_blade_palette.png",
+      "folder": "",
+      "namespace": "",
+      "id": "0",
+      "particle": false,
+      "render_mode": "normal",
+      "visible": true,
+      "mode": "bitmap",
+      "saved": false,
+      "uuid": "d786965b-4f30-4e12-8177-18fcd70cfb41",
+      "uv_width": 64,
+      "uv_height": 64,
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAYklEQVR42u3QsQ1AABRAQSupRJQiep1SQaJhDqXCCLYQidpQbPAH4C55C7xkWbcn6rjOsLYbwtKsCCvrKmye+rB9zMPutQlLDDDAAAMMMODHAwAAAAAAAAAAAAAAAACAz3gBLzOq/eALHb4AAAAASUVORK5CYII="
+    }
+  ],
+  "display": {
+    "thirdperson_righthand": {
+      "rotation": [
+        0,
+        -90,
+        50
+      ],
+      "translation": [
+        0.5,
+        4,
+        0.5
+      ],
+      "scale": [
+        0.85,
+        0.85,
+        0.85
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        0,
+        90,
+        -50
+      ],
+      "translation": [
+        -0.5,
+        4,
+        0.5
+      ],
+      "scale": [
+        0.85,
+        0.85,
+        0.85
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        0,
+        -90,
+        25
+      ],
+      "translation": [
+        1.13,
+        3.2,
+        1.13
+      ],
+      "scale": [
+        0.68,
+        0.68,
+        0.68
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        0,
+        90,
+        -25
+      ],
+      "translation": [
+        1.13,
+        3.2,
+        1.13
+      ],
+      "scale": [
+        0.68,
+        0.68,
+        0.68
+      ]
+    },
+    "gui": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1.25,
+        1.25,
+        1.25
+      ]
+    },
+    "ground": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        2,
+        0
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.75,
+        0.75,
+        0.75
+      ]
+    }
+  },
+  "gui_light": "front"
+}

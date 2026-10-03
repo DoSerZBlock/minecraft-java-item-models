@@ -1,5 +1,6 @@
 ---
 name: minecraft-java-item-models
+license: MIT
 description: 建立或微調 Minecraft Java 的 Blockbench 物品模型與資源包，適用於武器、工具、材料及其他物品欄或手持道具，尤其是需要分開調整物品欄、第一人稱和第三人稱外觀時。
 ---
 

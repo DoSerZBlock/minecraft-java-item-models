@@ -1,0 +1,103 @@
+[project]
+id = "frost_lance"
+name = "霜槍"
+vfx_family = "projectile"
+minecraft_version = "26.2"
+phase = "blockout"
+
+[design]
+theme = "dark_medieval_fantasy"
+element = "frost"
+primary_silhouette = "long crystalline spear"
+focal_point = "bright frozen spear tip"
+detail_density = "medium"
+
+[spatial]
+spawn_space = "caster_space"
+orientation_space = "velocity_space"
+target_space = "world_space"
+
+[geometry]
+units = "blockbench_units"
+asset_forward_axis = "+z"
+asset_up_axis = "+y"
+origin = "rear_center"
+max_extent = 32.0
+
+[orientation]
+runtime_forward_source = "velocity"
+follow_yaw = true
+follow_pitch = true
+follow_roll = false
+invert_forward = false
+
+[motion]
+type = "linear_projectile"
+initial_speed_blocks_per_tick = 1.8
+acceleration_blocks_per_tick2 = 0.0
+max_distance_blocks = 32.0
+
+[timeline]
+cast_start_sec = 0.0
+release_sec = 0.20
+impact_trigger = "collision"
+aftermath_duration_sec = 0.35
+
+[lifecycle]
+max_lifetime_ticks = 50
+dispose_on_impact = true
+dispose_on_cancel = true
+dispose_on_disconnect = true
+dispose_on_shutdown = true
+
+[effects.cast]
+particle_id = "grayday:frost_lance_charge"
+sound_id = "grayday:frost_lance_cast"
+
+[effects.flight]
+particle_id = "grayday:frost_lance_trail"
+
+[effects.impact]
+particle_id = "grayday:frost_lance_burst"
+sound_id = "grayday:frost_lance_impact"
+
+[budget]
+max_models_per_cast = 1
+max_particles_per_tick = 20
+max_active_instances_per_player = 4
+max_lifetime_ticks = 50
+allow_per_viewer_particles = true
+
+[runtime]
+presentation_runtime = "GrayDay_VFX"
+model_provider = "BetterModel"
+asset_source = "GrayDay_Assets"
+rpg_domain_source = "GrayDay_Core"
+model_id = "grayday:frost_lance"
+
+[output]
+expected = [
+  "GrayDay_Assets/models/spells/frost_lance.bbmodel",
+  "GrayDay_VFX frost_lance presentation integration",
+  "Paper runtime QA evidence for frost_lance"
+]
+
+[qa]
+required_cases = [
+  "horizontal",
+  "pitch_up",
+  "pitch_down",
+  "side_observation",
+  "impact",
+  "timeout",
+  "disconnect",
+  "cleanup"
+]
+blocking_rules = [
+  "projectile tip must point toward velocity",
+  "model must follow caster pitch at release and velocity pitch during flight",
+  "model must not remain world-horizontal during pitched casts",
+  "head-tail inversion is forbidden",
+  "impact, timeout and disconnect must dispose the model"
+]
+paper_runtime_qa = "pending"

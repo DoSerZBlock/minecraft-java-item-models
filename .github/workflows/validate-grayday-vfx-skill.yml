@@ -1,0 +1,23 @@
+name: Validate GrayDay VFX Skill
+
+on:
+  push:
+    paths:
+      - "skills/grayday-vfx-skill/**"
+      - ".github/workflows/validate-grayday-vfx-skill.yml"
+  pull_request:
+    paths:
+      - "skills/grayday-vfx-skill/**"
+      - ".github/workflows/validate-grayday-vfx-skill.yml"
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Validate task contracts
+        run: |
+          python skills/grayday-vfx-skill/scripts/validate_vfx_task.py             skills/grayday-vfx-skill/assets/templates/VFX_TASK.template.toml             skills/grayday-vfx-skill/assets/example/frost_lance.task.toml
